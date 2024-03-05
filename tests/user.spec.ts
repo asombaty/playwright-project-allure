@@ -11,4 +11,5 @@ test('should be able to register to our application', async ({ page }) => {
 	const todoPage = new TodoPage();
 	const welcomeMessage = todoPage.getWelcomeMessageElement(page);
 	await expect(welcomeMessage).toBeVisible();
+	// nothing
 });
